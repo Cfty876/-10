@@ -8,7 +8,7 @@ from models import load_model
 from transformers import pipeline
 from googletrans import Translator
 
-TOKEN = '8165857003:AAG365QmHd7UHrfVceqP3Iw6t_vb047eCaw'
+TOKEN = ''
 bot = TeleBot(TOKEN)
 gpt_dialog = Dialog()
 image_model = load_model()
